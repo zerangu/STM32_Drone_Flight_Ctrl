@@ -61,6 +61,6 @@ Controller can read TFluna laser range finder
 
 4. motor beep
 
-5. flip ch5 switch to arm (PWM > 1800us) and fly the drone
+5. flip ch5 switch to arm (PWM > 1800us) and fly the damn thing
 
 # good luck in your project!
