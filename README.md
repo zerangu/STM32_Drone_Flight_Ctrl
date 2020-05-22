@@ -1,4 +1,4 @@
-# STM32_Drone_Flight_Ctrl
+# STM32 Drone Flight Controller
 
 uses stm32f103c8t6 bluepill and mpu6050
 
