@@ -1,5 +1,7 @@
 # STM32 Drone Flight Controller
 
+Project is based on STM CUBE IDE
+
 uses stm32f103c8t6 (AKA bluepill) and mpu6050
 
 input ppm as user control signal ch1:Throttle ch2:Roll ch3:Pitch ch4:Yaw ch5:arm
