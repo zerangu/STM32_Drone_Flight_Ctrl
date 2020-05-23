@@ -1,6 +1,6 @@
 # STM32 Drone Flight Controller
 
-uses stm32f103c8t6 bluepill and mpu6050
+uses stm32f103c8t6 (AKA bluepill) and mpu6050
 
 input ppm as user control signal ch1:Throttle ch2:Roll ch3:Pitch ch4:Yaw ch5:arm
 
@@ -22,7 +22,9 @@ ESC4  -  PB1 - left  - rear   - ccw
 
 # MPU6050 Mounting & Pin Mapping
 
-X-axis towards frount, facing up, lay flat. Use earplug, other foam materials or hollow rubber balls as a damper is a good practice.
+X-axis towards frount, facing up, lay flat. 
+
+Use earplug, other foam materials or hollow rubber balls as a damper is a good practice.
 
 VCC - 5V
 
