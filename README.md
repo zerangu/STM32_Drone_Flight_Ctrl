@@ -20,8 +20,9 @@ ESC3  -  PB0 - right - rear   - cw
 
 ESC4  -  PB1 - left  - rear   - ccw
 
-# MPU6050 Pin Mapping
-X-axis towards frount
+# MPU6050 Mounting & Pin Mapping
+
+X-axis towards frount, facing up, lay flat. Use earplug or other foam or rubber as a damper is a good practice.
 
 VCC - 5V
 
