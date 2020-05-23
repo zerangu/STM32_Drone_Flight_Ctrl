@@ -41,7 +41,7 @@ SDA - PB9
 
 ESC:    HOBBYWING SKYWALKER 20A
 
-Motor:  DJI P4 (kv900? not sure)
+Motor:  DJI 2212 920KV
 
 Prop:   1045
 
