@@ -2,7 +2,7 @@
 
 Project is based on STM CUBE IDE
 
-uses stm32f103c8t6 (AKA bluepill) and mpu6050
+uses STM32f103c8t6 (AKA bluepill) as main controller and MPU6050 as IMU
 
 input ppm as user control signal ch1:Throttle ch2:Roll ch3:Pitch ch4:Yaw ch5:arm
 
@@ -10,21 +10,23 @@ ppm must be 8 channel
 
 # Pin Mapping:
 
-PPM   -  PA4 - recever
+PPM   -  PA4 - receiver
 
 (top view)
 
-ESC1  -  PA6 - left  - frount - cw
+ESC1  -  PA6 - left  - front - cw
 
-ESC2  -  PA7 - right - frount - ccw
+ESC2  -  PA7 - right - front - ccw
 
 ESC3  -  PB0 - right - rear   - cw
 
 ESC4  -  PB1 - left  - rear   - ccw
 
+(ESC: electronic speed controller)
+
 # MPU6050 Mounting & Pin Mapping
 
-X-axis towards frount, facing up, lay flat. 
+X-axis towards front, facing up, lay flat. 
 
 Use earplug, other foam materials or hollow rubber balls as a damper is a good practice.
 
@@ -50,11 +52,11 @@ bettery: 3s lipo 2200mah
 
 # Flight Control
 
-Controller uses PID control without I
+Controller uses PID control without I.
 
-D gain might be too high for you
+D gain might be too high for you.
 
-Controller can read TFluna laser range finder 
+Controller can read TFluna laser range finder which allowing altitude hold function become possible in the future.
 
 # Test Flight
 
